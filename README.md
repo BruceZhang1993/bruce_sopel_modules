@@ -5,6 +5,7 @@
     [if does not exists] mkdir ~/.sopel/modules/
     cd ~/.sopel/modules/
     git clone https://github.com/BruceZhang1993/bruce_sopel_modules.git
+    mv bruce_sopel_modules/*.py ./
     Restart your sopel, and it should work.
     重启sopel即可使用
     
