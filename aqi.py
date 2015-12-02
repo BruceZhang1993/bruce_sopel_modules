@@ -66,5 +66,3 @@ def get_formatted_aqi(city):
 			"空气污染指数： %d， 空气质量： %s， 首要污染物： %s， 实时PM2.5: %d， 实时PM10: %d  "%(aqi, quality, pri, pm25, pm10)
 		]
 	return msgs
-
-pprint(get_rank())
