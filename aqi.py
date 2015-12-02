@@ -3,7 +3,6 @@
 from sopel import module
 import json
 import requests
-from pprint import pprint
 
 # 这里输入申请的 APIKey， 申请地址：http://pm25.in/api_doc
 token = "5j1znBVAsnSf5xQyNQyq"
