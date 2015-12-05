@@ -4,7 +4,7 @@ from sopel import module
 import requests
 import json
 
-@module.command("bilibili")
+@module.commands("bilibili")
 def bili(bot, trigger):
 	arg = trigger.group(2)
 	for item in get_msgs(arg):
