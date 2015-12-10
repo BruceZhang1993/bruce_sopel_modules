@@ -19,4 +19,4 @@
       无需配置即可使用，无需API Key.
     
 ## Uninstall 卸载
-    rm -rf ~/.sopel/modules/bruce_sopel_modules/ (be care)
+    rm -rf ~/.sopel/modules/xxx.py (just remove .py files with caution)
